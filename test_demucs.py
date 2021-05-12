@@ -9,14 +9,13 @@
 # NOTE: Demucs needs the model to be submitted along with your code.
 # In order to download it, simply run once locally `python test_demucs.py`
 #
-# Making submission using Demucs:
-# 1. Change the model in `predict.py` to DemucsPredictor.
-# 2. Download the pre-trained model by running
-#    #> python test_demucs.py
-# 3. Submit your code using git-lfs
+# Making submission using the pretrained Demucs model:
+# 1. Edit the `aicrowd.json` file to set your AICrowd username.
+# 2. Submit your code using git-lfs
 #    #> git lfs install
-#    #> git add .gitattributes
 #    #> git add models
+# 3. Download the pre-trained model by running
+#    #> python test_demucs.py
 #
 # IMPORTANT: if you train your own model, you must follow a different procedure.
 # When training is done in Demucs, the `demucs/models/` folder will contain
