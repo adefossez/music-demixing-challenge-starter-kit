@@ -2,8 +2,8 @@
   "challenge_id": "evaluations-api-music-demixing",
   "grader_id": "evaluations-api-music-demixing",
   "authors": [
-    "aicrowd-bot"
+    "defossez"
   ],
-  "description": "Open-Unmix Separation model",
+  "description": "Demucs baseline",
   "external_dataset_used": false
 }
