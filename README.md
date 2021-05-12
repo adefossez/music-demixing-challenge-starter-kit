@@ -9,3 +9,5 @@ Please refer to [the original repo](https://github.com/AIcrowd/music-demixing-ch
 More information on training Demucs for the challenge on the [Demucs MDX page](https://github.com/facebookresearch/demucs/blob/master/docs/mdx.md).
 
 Out of the box, the Demucs baseline is at 6.20 of SDR.
+
+If you want to submit the pre-trained model, please follow the instructions in [test_demucs.py](./test_demucs.py)
