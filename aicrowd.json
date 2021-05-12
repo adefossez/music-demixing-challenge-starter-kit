@@ -2,7 +2,7 @@
   "challenge_id": "evaluations-api-music-demixing",
   "grader_id": "evaluations-api-music-demixing",
   "authors": [
-    "defossez"
+    "YOUR_USERNAME"
   ],
   "description": "Demucs baseline",
   "external_dataset_used": false
