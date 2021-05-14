@@ -15,7 +15,7 @@
 #    #> python test_demucs.py
 # 3. Add pre-trained model to your git repo using git-lfs
 #    #> git lfs install
-#    #> git lfs track *.th
+#    #> git lfs track "*.th"
 #    #> git add .gitattributes
 #    #> git add models/
 #
