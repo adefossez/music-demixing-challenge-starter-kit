@@ -84,7 +84,10 @@ class DemucsPredictor(MusicDemixingPredictor):
         for target, path in target_file_map.items():
             idx = self.separator.sources.index(target)
             source = estimates[idx]
-            source = source / max(1.01 * source.abs().max().item(), 1)
+            mx = source.abs().max()
+            if mx >= 1:
+                print('clipping', target, mx, std)
+            source = source.clamp(-0.99, 0.99)
             ta.save(str(path), source, sample_rate=sr)
 
 
